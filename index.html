@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- external tailwindcss link -->
+   <link rel="stylesheet" href="src/input.css">
   
   <title>Frontend Mentor | Manage landing page</title>
 
@@ -16,13 +19,20 @@
 </head>
 <body>
 
-  Pricing
-  Product
-  About Us
-  Careers
-  Community
+  <!-- NAVBAR -->
+   <nav class="my-10 mx-25 flex items-center h-full">
+    <div class=""><img src="images/logo.svg" alt="Logo"></div>
 
-  Get Started
+    <ul class="flex mx-auto gap-5">
+      <li class="text-sm font-semibold text-orange-950">Pricing</li>
+      <li class="text-sm font-semibold text-orange-950">Product</li>
+      <li class="text-sm font-semibold text-orange-950">About Us</li>
+      <li class="text-sm font-semibold text-orange-950">Careers</li>
+      <li class="text-sm font-semibold text-orange-950">Community</li>
+    </ul>
+
+    <button class="bg-orange-500 text-gray-50 px-6 py-3 rounded-3xl text-sm text-semibold shadow-6xl">Get Started</button>
+   </nav>
 
   Bring everyone together to build better products.
 
