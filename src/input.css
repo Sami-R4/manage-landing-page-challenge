@@ -19,3 +19,7 @@
     --gray-50: hsl(0, 0%, 98%);
     --shadow-card: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
+
+body {
+    overflow-x: hidden;
+}
